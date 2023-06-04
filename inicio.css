@@ -28,7 +28,7 @@ section .div-img img {
 
 section .div-img{
   display: flex;
-  width: 380px;
+  width: 100%;
   height: 120px;
   background-color: #f7f2f0d1;
   border-radius: 10px;
