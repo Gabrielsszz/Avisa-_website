@@ -43,7 +43,7 @@ section .div-img{
 
 section .div-img:hover {
   color: #ff0000;
-  box-shadow: inset 400px 0 0 0 #a0a0a065;;
+  box-shadow: inset 2000px 0 0 0 #a0a0a065;;
 }
 
 
