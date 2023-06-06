@@ -84,15 +84,17 @@ section .div-img  .div-text-valor {
 
 
 
-  .container-images {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
-    margin-top: 20px;
+.container-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px; 
+  margin-top: 10px;
+  padding: 0 20px; 
+  margin: 0 auto;
+}
 
-  }
-  
   .slider {
     display: flex;
     justify-content: center;
@@ -220,3 +222,105 @@ i:hover {
 .card .card-btn{
     z-index: 10;
 }*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fffaf7;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  max-width: 900px;
+}
+
+.container .card {
+  position: relative;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.container .card * {
+  box-sizing: border-box;
+}
+
+.container .card .content {
+  padding: 10px;
+}
+
+.container .card .content p {
+  color: #961f1f;
+  transition: 0.5s;
+}
+
+.container .card .content a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  transition: 0.5s;
+  outline: none;
+  margin-top: 20px;
+}
+
+.container .card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  transition: 0.5s;
+}
+
+.container .card:hover {
+  background-color: #681818;
+  color: rgb(255, 255, 255);
+  transform: scale(1.1);
+  box-shadow: 2px 20px 25px #dc2e2e5d;
+  border-color: #c32626;
+}
+
+.container .card:hover .content p {
+  color: rgb(255, 255, 255);
+}
+
+.container .card:hover .content a {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.default-price {
+  text-decoration: line-through;
+  font-weight: 300;
+}
+
+.promo-price {
+  font-size: 17px;
+}
+
+/* Media Query para dispositivos com largura máxima de 768px (modo mobile) */
+@media only screen and (max-width: 768px) {
+  .container .card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
