@@ -119,8 +119,8 @@ main {
 }
 
 .login__button {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 50px;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -130,12 +130,21 @@ main {
   border: none;
   cursor: pointer;
   margin-bottom: 60px;
-  margin-left: 14vh;
+  margin-left: 12vh;
+  font-size: 15px;
 }
 
-.login__button svg {
-  fill: var(--rose);
+.cadastro-text{
+  text-decoration: none !important;
+  color: #ffffff;
+  transition: all 0.5s;
+  cursor: pointer;
 }
+
+.cadastro-text:hover{
+  transform: scale(1.1);
+}
+
 
 .login__button:disabled {
   cursor: auto;
