@@ -169,3 +169,7 @@ main {
 }
 
 
+.error{
+  display: none;
+  background-color: #6d0101;
+}

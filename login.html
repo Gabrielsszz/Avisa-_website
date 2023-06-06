@@ -8,6 +8,9 @@
   <meta name="document" content="pagina de cadastro plataforma avisai" />
   <link rel="stylesheet" href="CSS/style.css" />
   <script src="src/script.js" defer></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+
   <title>Avisai</title>
 </head>
 
@@ -22,12 +25,15 @@
 
         
         <label class="loginlabel">
-          <span>nome de usuário</span>
-          <input type="text" name="username" class="input" />
+          <span>Email</span>
+          <input type="email" name="email" class="input" />
+          <div class="error">Email invalido</div>
+          <div class="error">email obrigatorio</div>
         </label>
 
+
         <label class="loginlabel">
-          <span>senha</span>
+          <span>Senha</span>
           <input type="password" name="password" class="input" />
         </label>
 
