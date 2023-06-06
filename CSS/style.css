@@ -23,9 +23,10 @@ main {
   --medium-grey: #000000;
   --deep-grey: #343434;
   --black: #000000;
-  --vine: #6d0101;
-  --rose: #ecd4d4;
+  --vine: #5d0404;
+  --rose: #dedcdc;
 }
+
 
 .login__logo {
   width: 130px;

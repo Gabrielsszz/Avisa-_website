@@ -23,8 +23,8 @@ main {
   --medium-grey: #000000;
   --deep-grey: #343434;
   --black: #000000;
-  --vine: #6d0101;
-  --rose: #ecd4d4;
+  --vine: #5d0404;
+  --rose: #dedcdc;
 }
 
 .login__logo {
@@ -49,10 +49,10 @@ main {
 }
 
 .logintitle {
-  text-align: center ;
+  text-align: center;
   color: var(--vine);
-  font-size: 1.5em;
-  margin-bottom: 30px;
+  font-size: 1.2em;
+  margin-bottom: 20px;
 }
 
 .loginlabel {
@@ -72,6 +72,7 @@ main {
   font-weight: 600;
   color: var(--vine);
 }
+
 
 .loginlabel span {
   position: absolute;
@@ -119,7 +120,8 @@ main {
 }
 
 .login__button {
-  width: 100px;
+  width: 100%;
+  max-width: 200px;
   height: 50px;
   padding: 20px;
   display: flex;
@@ -129,22 +131,22 @@ main {
   border-radius: 20px;
   border: none;
   cursor: pointer;
-  margin-bottom: 60px;
-  margin-left: 12vh;
+  margin: 10px auto 60px;
   font-size: 15px;
 }
 
-.cadastro-text{
+a.cadastro-text {
   text-decoration: none !important;
   color: #ffffff;
   transition: all 0.5s;
   cursor: pointer;
+  padding: 10px 20px;
+  font-size: 14px;
 }
 
-.cadastro-text:hover{
+.cadastro-text:hover {
   transform: scale(1.1);
 }
-
 
 .login__button:disabled {
   cursor: auto;
@@ -153,7 +155,7 @@ main {
 }
 
 .login__button:disabled svg {
-  fill: var(--vine)
+  fill: var(--vine);
 }
 
 .login__link {
