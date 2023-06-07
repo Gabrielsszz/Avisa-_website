@@ -343,8 +343,8 @@ nav div img {
   background-color: #aaaaaa;
   color: rgb(255, 255, 255);
   transform: scale(1.06);
-  box-shadow: 2px 20px 25px #dc2e2e3e;
-  border-color: #000000;
+  box-shadow: 2px 20px 25px #1514143e;
+  border-color: #291212;
 }
 
 .container .card:hover .content p {
