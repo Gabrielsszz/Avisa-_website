@@ -170,7 +170,23 @@ main {
 }
 
 
-.error{
+.error-login{
   display: none;
-  background-color: #6d0101;
+  background-color: #6d01015d;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 4px;
+
+
+
+
+}
+.error-senha {
+  background-color: #6d01015d;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 4px;
+
 }

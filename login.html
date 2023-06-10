@@ -24,15 +24,16 @@
         
         <label class="loginlabel">
           <span>Email</span>
-          <input type="email" name="email" class="input" />
-          <div class="error">Email invalido</div>
-          <div class="error">email obrigatorio</div>
+          <input type="email" name="email" class="input" id="email" onchange="validateFields()"/>
+          <div class="error-login">Email invalido</div>
+          <div class="error-login">email obrigatorio</div>
         </label>
 
 
         <label class="loginlabel">
           <span>Senha</span>
-          <input type="password" name="password" class="input" />
+          <input type="password" name="password" class="input" id="senha" onchange="validateFields()"/>
+          <div class="error-senha">Senha é obrigatória</div>
         </label>
 
         <label class="loginlabel--checkbox">
@@ -42,7 +43,7 @@
       </div>
 
       <div class="wrapper">
-       <a href="inicio.html"><button type="button" class="login__button" disabled>
+       <a><button type="button" class="login__button">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
             <path
               d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z" />
@@ -63,6 +64,7 @@
   <script src="src/script.js" defer></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+  <script src="src/login.js" ></script>
 </body>
 
 </html>
