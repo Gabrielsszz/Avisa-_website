@@ -16,6 +16,8 @@
 body{
     color: var(--dark);
     background: #fffaf7;
+    background: rgb(75,75,75);
+    background-image: linear-gradient(to right bottom, #363737, #3b3c3c, #404041, #454545, #4a4a4a);
 }
 .navigation{
     display: flex;
@@ -24,7 +26,8 @@ body{
     padding: 18px 40px;
     box-shadow: 0 0.1rem 0.5rem #00000058;
     width: 100%;
-    background: rgb(71, 21, 21);
+    background: rgb(60, 60, 60);
+    
     transition: all 0.5s;
     position: fixed;
 }
@@ -84,19 +87,48 @@ body{
 }
 .home-text .text-h4{
     font-size: 1.5rem;
-    color: rgb(103, 15, 15);
+    color: rgb(162, 0, 0);
     margin-bottom: 1rem;
+    text-shadow: 1px 1px 1px #810f0f,
+    1px 2px 1px #501414,
+    1px 3px 1px #4f1313,
+    1px 1px 1px #601414,
+    1px 3px 1px #571414,
+    1px 3px 1px #5d1818,
+    1px 3px 1px #581919,
+    1px 1px 1px #4d1818,
+    1px 1px 1px #581b1b,
+    1px 1px 1px #810f0f,
+1px 10px 6px rgba(92, 22, 22, 0.114),
+1px 18px 10px rgba(92, 13, 13, 0),
+1px 20px 35px rgba(128, 26, 26, 0.2),
+1px 25px 60px rgba(106, 20, 20, 0);
 }
 .home-text .text-h1{
     font-size: 4rem;
     margin-bottom: 1rem;
     line-height: 4rem;
-    color: #471919;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #919191,
+    1px 2px 1px #919191,
+    1px 3px 1px #919191,
+    1px 1px 1px #919191,
+    1px 3px 1px #919191,
+    1px 3px 1px #919191,
+    1px 3px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+    1px 1px 1px #919191,
+1px 10px 6px rgba(16,16,16,0.4),
+1px 18px 10px rgba(16,16,16,0.2),
+1px 20px 35px rgba(16,16,16,0.2),
+1px 25px 60px rgba(16,16,16,0.4);
 }
 .home-text p{
     margin-bottom: 4rem;
-    color: black;
+    color: rgb(255, 0, 0);
     font-weight: 200;
+
 }
 .home-btn{
     padding: 15px 45px;

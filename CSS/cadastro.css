@@ -133,16 +133,10 @@ main {
   cursor: pointer;
   margin: 10px auto 60px;
   font-size: 15px;
+  text-decoration: none;
 }
 
-a.cadastro-text {
-  text-decoration: none !important;
-  color: #ffffff;
-  transition: all 0.5s;
-  cursor: pointer;
-  padding: 10px 20px;
-  font-size: 14px;
-}
+
 
 .cadastro-text:hover {
   transform: scale(1.1);

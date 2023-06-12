@@ -8,7 +8,8 @@
 }
 
 body {
-    background-color: rgb(223, 223, 223);
+    background: rgb(75,75,75);
+    background-image: linear-gradient(to right bottom, #363737, #3b3c3c, #404041, #454545, #4a4a4a);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -19,7 +20,8 @@ body {
 
 .card-container {
     position: relative;
-    background-color: rgb(75, 35, 35);
+    background-color: rgba(255, 255, 255, .1);
+  border: 1px solid #ffffff30;
     border-radius: 15px;
     box-shadow: 0px 0px 20px 0px #000000;
     color: #d5d5d5;
@@ -63,21 +65,22 @@ body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 56%;
+    top: 52%;
     transform: translateY(-50%);
     width: 100%;
     z-index: 10;
 }
 
 .card-container .button .btn {
-    background-color: #c8bdbd;
-    border: 1px solid #710002;
+    background-color: #d4d4d4;
+    border: 1px solid #ffffff30;
     outline: none;
     border-radius: 3px;
-    color: #380007;
+    color: #323232;
     font-weight: 300;
     padding: 10px 25px;
     margin: 5px;
+  
 }
 
 .card-container .button .btn.ghost {
@@ -90,7 +93,8 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: #321818;
+    background-color: rgba(255, 255, 255, .1);
+    border: 1px solid #ffffff30;
     text-align: left;
     padding: 15px;
     margin-top: auto;
@@ -134,7 +138,6 @@ body {
     border-radius: 10px;
     box-shadow: 1px 1px 2px rgba(0,0,0);
     background-color: rgb(239, 238, 238);
-    border-bottom: 5px solid rgb(165, 165, 165);
     color: maroon; 
     transition: all 0.5s;
     -webkit-transition: all 0.5s; 
