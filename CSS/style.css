@@ -31,7 +31,7 @@ main {
 
 .login__logo {
   width: 130px;
-  margin-bottom: 20px; /* Reduzi a margem inferior para compensar */
+  margin-bottom: 20px;
   margin-top: -20px; 
   display: flex;
   align-items: center;
