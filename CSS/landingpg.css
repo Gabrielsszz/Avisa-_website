@@ -144,6 +144,7 @@ body{
 }
 .home-img img{
     width: 100%;
+   
 }
 @media (max-width:785px) {
     .navigation{
@@ -181,7 +182,7 @@ body{
     }
     /*main*/
     .home{
-        padding: 100px 2%;
+        padding: 80px 2%;
         flex-direction: column;
         text-align: center;
         overflow: hidden;

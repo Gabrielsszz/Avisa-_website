@@ -31,11 +31,13 @@ main {
 
 .login__logo {
   width: 130px;
-  margin-bottom: 40px;
-  margin-left: 43px;
+  margin-bottom: 20px; /* Reduzi a margem inferior para compensar */
+  margin-top: -20px; 
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
+  
 }
 
 .login {
