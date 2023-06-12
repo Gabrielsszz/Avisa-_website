@@ -8,7 +8,7 @@
 }
 body{
   background: rgb(75,75,75);
-  background-image: linear-gradient(to right bottom, #363737, #3b3c3c, #404041, #454545, #4a4a4a);
+  background-image: linear-gradient(to right , #363737, #3b3c3c, #404041, #454545, #4a4a4a);
 }
 #menu-hamb {
 z-index: 2;

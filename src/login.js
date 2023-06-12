@@ -31,7 +31,7 @@ else{
 }
 
 function toggleEmailErrors() {
-    
+    login__button.disabled = document.querySelector(".error-login").style.display === "block";
     const email = document.getElementById("email").value;
     if (!email) {
         document.querySelector(".error-login").style.display = "block";
