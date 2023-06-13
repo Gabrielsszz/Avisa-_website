@@ -18,12 +18,12 @@ header {
   border-bottom: 2px solid #adadad8c; /* Cor e estilo da linha */
   margin: 1px 0;
   margin-top: 0;
+  z-index: 10;
 }
 
 
 #menu-hamb {
   top: 0; /* Alinha ao topo do cabeçalho */
-  
   z-index: 9;
 }
 
@@ -357,4 +357,14 @@ nav div img {
     width: 100%;
     max-width: 100%;
   }
+}
+
+
+.fa-square-plus {
+  position: absolute;
+  right: 10px;
+  margin-top: 19px;
+  font-size: 35px;
+  z-index: 20;
+  color: #630a0a;
 }

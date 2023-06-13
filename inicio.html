@@ -14,6 +14,7 @@
 
 <body>
      
+<i class="fa-solid fa-square-plus"></i>
     <header>
         
         <nav>   
@@ -129,9 +130,15 @@
                 animateIn: 'fadeIn',
                 responsive: {
                     0: {
-                        items: 1
-                    }
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
                 }
+            }
             });
             owl.trigger('refresh.owl.carousel');
         });

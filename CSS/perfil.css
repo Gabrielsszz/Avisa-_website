@@ -87,7 +87,7 @@ body {
     width: 0;
     height: 0;
     margin: 30px 0 20px 20px;
-    background: #292929;
+    background: #471212;
     border-radius: 20px;
     transition: 0.3s ease;
     
@@ -107,7 +107,7 @@ body {
   }
   
   .change .bar {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(171, 98, 98);
   }
   
   .change #bar1 {
