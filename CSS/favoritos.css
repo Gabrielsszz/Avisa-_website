@@ -158,6 +158,7 @@ width: 100%;
   right: 6px;
   margin-top: 15px;
   z-index: 9999;
+  font-size: 20px;
   
 }
 
@@ -304,7 +305,14 @@ i:hover {
   color: #710002;
 }
 
-
+.fa-square-plus {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  font-size: 35px;
+  z-index: 20;
+  color: #630a0a;
+}
 
 
 

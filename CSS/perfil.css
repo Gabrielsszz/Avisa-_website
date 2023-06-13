@@ -333,3 +333,11 @@ i:hover {
     }
   }
   
+  .fa-square-plus {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 35px;
+    z-index: 20;
+    color: #630a0a;
+  }
