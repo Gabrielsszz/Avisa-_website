@@ -9,13 +9,22 @@
 
 body {
   background-color: #fffaf7;
-  background: rgb(75,75,75);
-  background-image: linear-gradient(to right bottom, #363737, #3b3c3c, #404041, #454545, #4a4a4a);
   
+ 
 }
 
+header {
+  position: relative;
+  border-bottom: 2px solid #adadad8c; /* Cor e estilo da linha */
+  margin: 1px 0;
+  margin-top: 0;
+}
+
+
 #menu-hamb {
-  z-index: 2;
+  top: 0; /* Alinha ao topo do cabeçalho */
+  
+  z-index: 9;
 }
 
 .fixed-menu #menu-hamb {
@@ -32,7 +41,7 @@ body {
 .bar {
   height: 5px;
   width: 70%;
-  background-color: #ffffff;
+  background-color: #630a0a;
   display: block;
   border-radius: 5px;
   transition: 0.3s ease;
@@ -48,7 +57,7 @@ body {
 }
 
 .nav-hamb {
-  transition: 0.3s ease;
+  transition: 0.3s;
   display: none;
   position: absolute; 
   box-sizing: border-box;
@@ -73,6 +82,7 @@ body {
 .nav-hamb li a:hover {
   font-weight: bold;
   color: rgb(249, 0, 0);
+  
 }
 
 
@@ -81,7 +91,7 @@ body {
   width: 0;
   height: 0;
   margin: 30px 0 20px 20px;
-  background: #292929;
+  background: #471212;
   border-radius: 20px;
   transition: 0.3s ease;
   
@@ -98,12 +108,13 @@ body {
 }
 
 .change {
+  
   display: block;
   
 }
 
 .change .bar {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(171, 98, 98);
 }
 
 .change #bar1 {
@@ -165,47 +176,6 @@ i:hover {
   color: #710002;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
-  height: 100%;
-}
-
-section .div-img img {
-  width: 110px;
-  height: 100%;
-}
-
-section .div-img {
-  display: flex;
-  width: 100%;
-  height: 120px;
-  background-color: #f7f2f0d1;
-  border-radius: 10px;
-  margin-top: 35px;
-  margin-bottom: -10px;
-  transition: color .9s ease-in-out, box-shadow .6s ease-in-out;
-  z-index: 10;
-}
-
-section .div-img:hover {
-  color: #ff0000;
-  box-shadow: inset 2000px 0 0 0 #a0a0a065;
-}
-
-section .div-img .div-text-produto {
-  margin-top: 20px;
-  margin-left: 30px;
-}
-
-section .div-img .div-text-valor {
-  margin-left: 20px;
-  margin-top: 30px;
-  color: rgb(125, 10, 10);
-  font-size: 20px;
-}
 
 .div-search {
   display: flex;
@@ -213,12 +183,7 @@ section .div-img .div-text-valor {
   margin-right: 38px;
 }
 
-.header {
-  width: 100%;
-  overflow: hidden;
-  display: flex;
-  z-index: 10;
-}
+
 
 .favoritos {
   position: fixed;
@@ -235,11 +200,15 @@ section .div-img .div-text-valor {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
   max-width: 1000px;
   margin-top: 10px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.container-slider,
+.slider {
+  margin-top: 10px;
 }
 
 .slider {
@@ -255,24 +224,7 @@ section .div-img .div-text-valor {
   opacity: 1;
 }
 
-#prev-button,
-#next-button {
-  width: 30px;
-  height: 30px;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
 
-#prev-button img,
-#next-button img {
-  width: 100%;
-  height: 100%;
-}
-
-#prev-button {
-  transform: rotate(180deg);
-}
 
 nav {
   display: flex;
@@ -315,9 +267,9 @@ nav div img {
 .container .card {
   position: relative;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.213);
-  border: 1px solid #ffffff30;
-  backdrop-filter: blur(100px);
+  background-color: rgba(199, 199, 199, 0.559);
+  border: 1px solid rgb(166, 166, 166);
+
   border-radius: 20px;
   overflow: hidden;
   transition: 0.5s;
@@ -359,7 +311,7 @@ nav div img {
 }
 
 .container .card:hover {
-  background-color: #aaaaaa68;
+  background-color: rgba(136, 136, 136, 0.711);
   color: rgb(255, 255, 255);
   transform: scale(1.06);
   box-shadow: 2px 20px 25px #1514143e;

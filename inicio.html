@@ -7,6 +7,8 @@
     <title>inicio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="CSS/inicio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="src/inicio.js"></script>
 </head>
 
@@ -40,12 +42,13 @@
             
         
     </header>
-    <div class="container-slider">
-        <div class="container-images">
-          <img src="images/PROMOÇOES.png" alt="girl" class="slider on">
+      <div class="owl-carousel owl-theme">
+        <div class="item"><img src="images/confira AS MELHORES promoções!.png" alt=""></div>
+        <div class="item"><img src="images/melhores promos.png" alt=""></div>
+        <div class="item"><img src="images/blackfriday.png" alt=""></div>
        
-        </div>
-        </div>
+    </div>
+    
 
           
             <div class="container">
@@ -109,62 +112,31 @@
     
     <section>
 
-       <!-- <div class="container-slider">
-            <div class="container-images">
-              <img src="images/PROMOÇOES.png" alt="girl" class="slider on">
-           
-            </div>
-            </div>
-       
-          <div class="div-img">
-            <img src="images/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
-            <div class="div-text-produto"><h3>Fone JBL Quantum 400</h3>
-            <div class="div-text-valor">
-                <p>R$ 329,00</p>
-            </div>
-        </div>
-          </div>
-          <div class="div-img">
-            <img src="images/pngimg.com - running_shoes_PNG5816.png" alt="">
-            <div class="div-text-produto"><h3>Tenis Nike Air Max Plus</h3>
-            <div class="div-text-valor">
-                <p>R$ 799,00</p>
-            </div>
-        </div>
-          </div>
-          <div class="div-img">
-            <img src="images/pngimg.com - running_shoes_PNG5816.png" alt="">
-            <div class="div-text-produto"><h3>Tenis Nike Air Max Plus</h3>
-            <div class="div-text-valor">
-                <p>R$ 799,00</p>
-            </div>
-        </div>
-          </div>
-          </section>!-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-         
-<!--<div class="card-main">
-            <div class="card">
-                <div class="card-img">
-                    <img src="public/images/JBL_Quantum_400_Product Image_Hero 02.png" alt="">
-                </div>
+<script>
+  $(document).ready(function(){
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true,
+                animateOut: 'fadeOut',
+                animateIn: 'fadeIn',
+                responsive: {
+                    0: {
+                        items: 1
+                    }
+                }
+            });
+            owl.trigger('refresh.owl.carousel');
+        });
 
-                <div class="card-info">
-                    <h1>Fone JBL Quantum 400</h1>
-                    <p>R$ 1,99</p>
-                </div>
-
-                <div class="card-btn">
-                    <a href="">Mais informações</a>
-                </div>
-            </div>
-      </div>!-->
-
-          
-
-    
-    
-    
+</script>
 
 </body>
 </html>

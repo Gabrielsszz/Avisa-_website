@@ -8,8 +8,7 @@
 }
 
 body {
-    background: rgb(75,75,75);
-    background-image: linear-gradient(to right bottom, #363737, #3b3c3c, #404041, #454545, #4a4a4a);
+   background-color: #fffaf7;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -39,7 +38,7 @@ body {
   .bar {
     height: 5px;
     width: 70%;
-    background-color: #ffffff;
+    background-color: #630a0a;
     display: block;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -133,8 +132,8 @@ body {
 
 .card-container {
     position: relative;
-    background-color: rgba(255, 255, 255, .1);
-  border: 1px solid #ffffff30;
+    background-color: rgba(78, 3, 3, 0.834);
+  border: 1px solid #5a1919;
     border-radius: 15px;
     box-shadow: 0px 0px 20px 0px #000000;
     color: #d5d5d5;
