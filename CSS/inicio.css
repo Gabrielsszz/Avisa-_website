@@ -55,7 +55,7 @@ button {
 }
 
 .fixed-menu #menu-hamb {
-  
+   
 }
 
 #menu-bar {
@@ -361,7 +361,7 @@ nav div img {
   position: absolute;
   display: flex;
   right: 10px;
-  margin-top: 10px;
+  margin-top: 30px;
   font-size: 33px;
   color: #630a0a;
 }
