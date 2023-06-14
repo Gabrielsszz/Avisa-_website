@@ -361,7 +361,8 @@ nav div img {
   position: absolute;
   display: flex;
   right: 10px;
-  margin-top: 33px;
+  margin-top: 100px;
   font-size: 33px;
   color: #630a0a;
+  z-index: 99;
 }

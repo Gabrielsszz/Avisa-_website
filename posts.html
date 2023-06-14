@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postagem</title>
+    <link rel="stylesheet" href="CSS/postagem.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="menu-hamb">
+        <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"> </div>
+            <div id="bar2" class="bar"> </div>
+            <div id="bar3" class="bar"> </div>
+        </div>
+
+    <nav class="nav-hamb" id="nav-hamb"> 
+        <ul>
+            <li><a href="inicio.html"> Inicio</a></li>
+            <li><a href="perfil.html"> Perfil</a></li>
+            <li><a href="favoritos.html"> Favoritos</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="menu-bg" id="menu-bg"> </div>
+<form class="card-Item" id="itemForm">
+    <div>
+        <h1 id="titulo-card">Postar Itens</h1>
+    </div>
+
+    <div class="post-items">
+        <label class="text-Item" for="title">Título:</label>
+        <input type="text" id="title" name="title" required>
+    </div>
+
+        <div class="post-items">
+            <label class="textItem" for="link">Link:</label>
+            <input type="text" id="link" name="link" required>
+        </div>
+
+
+
+
+    <div class="itemDetails">
+        <label for="detalhes">Detalhes:</label><br>
+        <textarea id="detalhes" name="detalhes" rows="4" cols="42" required></textarea>
+    </div>
+
+    <div class="btn-acao">
+        <button class="btn-post" type="post">Postar</button>
+        <button class="btn-cancel" type="cancel">Cancelar</button>
+    </div>
+
+
+</form>
+<div class="card-container"></div>
+<div id="itemList"></div>
+</div>
+<script src="src/postagem.js"></script>
+
+
+</body>
+</html>
