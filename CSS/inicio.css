@@ -18,7 +18,34 @@ header {
   border-bottom: 2px solid #adadad8c; /* Cor e estilo da linha */
   margin: 1px 0;
   margin-top: 0;
+  padding-top: 10px;
   z-index: 10;
+}
+.search-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
+#searchInput {
+  margin-left: 10px;
+  padding: 9px;
+  border-radius: 9px;
+  border: none;
+  background-color: #c1c1c1b4;
+}
+
+button {
+  margin-left: 1px;
+  border: none;
+ 
+  background-color: #ecd4d400;
 }
 
 
@@ -28,7 +55,7 @@ header {
 }
 
 .fixed-menu #menu-hamb {
-  position: fixed;
+  
 }
 
 #menu-bar {
@@ -36,6 +63,7 @@ header {
   height: 40px;
   margin: 30px 0 20px 20px;
   cursor: pointer;
+ 
 }
 
 .bar {
@@ -177,11 +205,6 @@ i:hover {
 }
 
 
-.div-search {
-  display: flex;
-  justify-content: center;
-  margin-right: 38px;
-}
 
 
 
@@ -196,33 +219,7 @@ i:hover {
   margin-top: 15px;
 }
 
-.container-images {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 1000px;
-  margin-top: 10px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
 
-.container-slider,
-.slider {
-  margin-top: 10px;
-}
-
-.slider {
-  display: flex;
-  justify-content: center;
-  opacity: 0;
-  transition: opacity .2s;
-  width: 100%;
-  border-radius: 10px;
-}
-
-.on {
-  opacity: 1;
-}
 
 
 
@@ -362,9 +359,9 @@ nav div img {
 
 .fa-square-plus {
   position: absolute;
+  display: flex;
   right: 10px;
-  margin-top: 19px;
-  font-size: 35px;
-  z-index: 20;
+  margin-top: 10px;
+  font-size: 33px;
   color: #630a0a;
 }

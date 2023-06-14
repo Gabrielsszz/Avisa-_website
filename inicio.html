@@ -16,7 +16,10 @@
      
 <i class="fa-solid fa-square-plus"></i>
     <header>
-        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Digite sua pesquisa">
+            <button onclick="pesquisar()"><i class="fas fa-search search-icon"></i></button>
+        </div>
         <nav>   
             <div class="favoritos">
               
@@ -47,77 +50,70 @@
         <div class="item"><img src="images/confira AS MELHORES promoções!.png" alt=""></div>
         <div class="item"><img src="images/melhores promos.png" alt=""></div>
         <div class="item"><img src="images/blackfriday.png" alt=""></div>
-       
     </div>
     
-
+    
           
-            <div class="container">
-                <!-- Primeiro Card -->
-                <div class="card">
-                    <div class="img">
-                        <img src="images/image (1).webp">
-                    </div>
-                    <h1> SSD NVME </h1>
-                    <div class="content">
-                        <p>
-                          De <p class="default-price"> <strong>R$300,00</strong>  </p> <h1 class="promo-price">Por R$200,00</h1> 
-    
-                        </p>
-                        <a href="#">Ver Mais</a>
-                    </div>
-                </div>
-    
-            <div class="card">
-                <div class="img">
-                    <img src="images/image.webp">
-                </div>
-                <h1>Mose Razer Balisk </h1>
-                <div class="content">
-                    <p>
-                      De <p class="default-price"> <strong>R$249,00</strong>  </p> <h1 class="promo-price">Por R$156,00</h1> 
-
-                    </p>
-                    <a href="#">Ver Mais</a>
-                </div>
+    <div class="container">
+        <!-- Primeiro Card -->
+        <div class="card">
+            <div class="img">
+                <img src="images/image (1).webp">
             </div>
-            <!-- Segundo Card -->
-            <div class="card">
-                <div class="img">
-                    <img src="images/JBL_Quantum_400_Product Image_Hero 02.png">
-                </div>
-                <h1>Headset JBL Quantum</h1>
-                <div class="content">
-                    <p>
-                        De <p class="default-price"> <strong>R$399,00</strong>  </p> <h1 class="promo-price">Por R$279,00</h1> 
-  
-                      </p>
-                    <a href="#">Ver Mais</a>
-                </div>
-            </div>
-            <!-- Terceiro Card -->
-            <div class="card">
-                <div class="img">
-                    <img src="images/image-removebg-preview.webp">
-                </div>
-                <h1>Headset Gamer</h1>
-                <div class="content">
-                    <p>
-                        De <p class="default-price"> <strong>R$199,00</strong>  </p> <h1 class="promo-price">Por R$159,00</h1> 
-  
-                      </p>
-                    <a href="#">Read More</a>
-                </div>
+            <h1>SSD NVME</h1>
+            <div class="content">
+                <p>
+                    De <p class="default-price"><strong>R$300,00</strong></p> <h1 class="promo-price">Por R$200,00</h1>
+                </p>
+                <a href="#">Ver Mais</a>
             </div>
         </div>
-    
-    <section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <div class="card">
+            <div class="img">
+                <img src="images/image.webp">
+            </div>
+            <h1>Mouse Razer Balisk</h1>
+            <div class="content">
+                <p>
+                    De <p class="default-price"><strong>R$249,00</strong></p> <h1 class="promo-price">Por R$156,00</h1>
+                </p>
+                <a href="#">Ver Mais</a>
+            </div>
+        </div>
+        <!-- Segundo Card -->
+        <div class="card">
+            <div class="img">
+                <img src="images/JBL_Quantum_400_Product Image_Hero 02.png">
+            </div>
+            <h1>Headset JBL Quantum</h1>
+            <div class="content">
+                <p>
+                    De <p class="default-price"><strong>R$399,00</strong></p> <h1 class="promo-price">Por R$279,00</h1>
+                </p>
+                <a href="#">Ver Mais</a>
+            </div>
+        </div>
+        <!-- Terceiro Card -->
+        <div class="card">
+            <div class="img">
+                <img src="images/image-removebg-preview.webp">
+            </div>
+            <h1>Headset Gamer</h1>
+            <div class="content">
+                <p>
+                    De <p class="default-price"><strong>R$199,00</strong></p> <h1 class="promo-price">Por R$159,00</h1>
+                </p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
 
-<script>
-  $(document).ready(function(){
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).ready(function () {
             var owl = $('.owl-carousel');
             owl.owlCarousel({
                 loop: true,
@@ -130,20 +126,21 @@
                 animateIn: 'fadeIn',
                 responsive: {
                     0: {
-                    items: 1
-                },
-                600: {
-                    items: 3
-                },
-                1000: {
-                    items: 3
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    }
                 }
-            }
             });
             owl.trigger('refresh.owl.carousel');
         });
 
-</script>
-<script src="src/pwabuilder-sw.js"></script>
+        
+    </script>
+    <script src="src/pwabuilder-sw.js"></script>
 </body>
 </html>
